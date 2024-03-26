@@ -26,7 +26,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/libarchive/Default
   SECTION:=libs
   CATEGORY:=Libraries
-  DEPENDS:=+zlib +liblzma +libbz2 +libexpat
+  DEPENDS:=+zlib +liblzma +libbz2 +libexpat +libacl
   TITLE:=Multi-format archive and compression library
   URL:=https://www.libarchive.org/
 endef
